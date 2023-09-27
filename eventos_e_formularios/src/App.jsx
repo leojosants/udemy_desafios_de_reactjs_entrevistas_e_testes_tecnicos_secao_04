@@ -1,13 +1,18 @@
 import './App.css';
+import DynamicForm from './components/DynamicForm';
 import RegistrationForm from './components/RegistrationForm';
 
 function App() {
   return (
     <>
-      {/* 1 - Formulário de Registro */}
       <div>
         <h2>1 - Formulário de Registro</h2>
         <RegistrationForm />
+      </div>
+
+      <div>
+        <h2>2 - Formulário dinâmico</h2>
+        <DynamicForm />
       </div>
     </>
   );
