@@ -1,5 +1,6 @@
 import './App.css';
 import DynamicForm from './components/DynamicForm';
+import FileUploader from './components/FileUploader';
 import RegistrationForm from './components/RegistrationForm';
 import ValidationForm from './components/ValidationForm';
 
@@ -19,6 +20,11 @@ function App() {
       <div>
         <h2>3 - Validação de formulário</h2>
         <ValidationForm />
+      </div>
+
+      <div>
+        <h2>4 - Upload de arquivo</h2>
+        <FileUploader />
       </div>
     </>
   );
