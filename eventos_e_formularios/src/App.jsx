@@ -1,6 +1,7 @@
 import './App.css';
 import DynamicForm from './components/DynamicForm';
 import RegistrationForm from './components/RegistrationForm';
+import ValidationForm from './components/ValidationForm';
 
 function App() {
   return (
@@ -13,6 +14,11 @@ function App() {
       <div>
         <h2>2 - Formulário dinâmico</h2>
         <DynamicForm />
+      </div>
+
+      <div>
+        <h2>3 - Validação de formulário</h2>
+        <ValidationForm />
       </div>
     </>
   );
